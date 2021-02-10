@@ -115,36 +115,36 @@ margin-bottom: 10px;
   background: linear-gradient(to top, #111, transparent);
 }
 
-.banner2 {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+// .banner2 {
+//   position: relative;
+//   width: 100%;
+//   min-height: 100vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
 
-.banner2::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 400px;
-  z-index: 1;
-  background: linear-gradient(to top, #111, transparent);
-}
+// .banner2::before {
+//   content: '';
+//   position: absolute;
+//   bottom: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 400px;
+//   z-index: 1;
+//   background: linear-gradient(to top, #111, transparent);
+// }
 
-.banner2::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 400px;
-  z-index: 1;
-  background: linear-gradient(to bottom, #111, transparent);
-}
+// .banner2::after {
+//   content: '';
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 400px;
+//   z-index: 1;
+//   background: linear-gradient(to bottom, #111, transparent);
+// }
 
 .destination {
   text-align: center;
@@ -165,8 +165,8 @@ margin-bottom: 10px;
 
 .destination .destinationList .box {
   position: relative;
-  min-width: 320px;
-  height: 320px;
+  min-width: 350px;
+  height: 480px;
   background: #191919;
   transition: 0.5s;
   margin: 10px;
@@ -212,6 +212,88 @@ opacity: 0.5;
   color: #fff;
   padding-top: 20px;
 }
+
+.footer {
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: #fff;
+  margin-top: 160px;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.footer .fa-heart {
+  color: #D23333;
+}
+
+@media (max-width: 768 px) {
+  .section {
+  padding: 40px;
+  }
+  .banner .content h2 {
+    font-size: 2.5em;
+  }
+  .banner .content p {
+    font-size: 1em;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about .contentBx,
+  .about .imgBx {
+    min-width: 100%;
+    width: 100%;
+    text-align: center;
+    padding-right: 0px;
+  }
+  .about .imgBx {
+    min-height: 250px;
+  }
+  .btn {
+    margin-bottom: 30px;
+  }
+  .destination .destinationList .box {
+    position: relative;
+    max-width: 350px;
+    min-width: initial;
+    width: 350px;
+    height: 400px;
+  }
+  .destination .destinationList .box .imgBx {
+    height: 320px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
