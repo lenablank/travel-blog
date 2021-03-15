@@ -26,8 +26,8 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.12.0'
 gem 'simple_form'
 
-gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
+
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
