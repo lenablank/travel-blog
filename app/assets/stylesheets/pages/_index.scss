@@ -1,7 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  // margin: 0;
+  // padding: 0;
+  // box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -14,17 +14,17 @@ section {
   padding: 40px;
 }
 
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1000000;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+// header {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   z-index: 1000000;
+//   display: flex;
+//   justify-content: space-between;
+//   width: 100%;
+//   padding-top: 20px;
+//   padding-bottom: 20px;
+// }
 
 .header .logo {
   color: #fff;
