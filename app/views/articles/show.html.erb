@@ -1,9 +1,10 @@
-<h2><%= @article.title %></h2>
+<h2 align="center">Title: <%= @article.title %></h2>
+<div class="well col-xs-8 col-xs-offset-2"></div>
 <p><%= @article.country %></p>
 <p><%= @article.city %></p>
 <p><%= @article.body %></p>
 
-<%= link_to "Edit", edit_article_path(@article) %>
-<%= link_to 'Delete', article_path(@article), method: :delete, data: {confirm: "Are you sure?"} %>
-<%= link_to 'Back', articles_path %>
 
+<%= link_to "Edit", edit_article_path(@article), class: "btn btn-xs btn-primary" %> |
+<%= link_to 'Delete', article_path(@article), method: :delete, data: {confirm: "Are you sure?"}, class: "btn btn-xs btn-danger" %> |
+<%= link_to 'Back', articles_path, class: "btn btn-xs btn-success" %>
