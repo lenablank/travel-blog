@@ -16,7 +16,11 @@
 
   <body>
     <%= render 'layouts/navigation' %>
-    <%= render 'shared/errors' %>
     <%= yield %>
+    <% flash.each do |name, msg| %>
+      <ul>
+      <li><%= msg %></li>
+      </ul>
+    <% end %>
   </body>
 </html>

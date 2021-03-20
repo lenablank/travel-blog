@@ -28,6 +28,8 @@ gem 'simple_form'
 
 gem 'sassc-rails', '>= 2.1.0'
 
+gem 'bcrypt', '~> 3.1.11'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
