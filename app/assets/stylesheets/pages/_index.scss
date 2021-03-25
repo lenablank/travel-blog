@@ -29,10 +29,12 @@ section {
 
 .btn-light {
   background-color: #ffd1b3;
+  border-color: #ffd1b3;
 }
 
 .btn-light:hover {
   background-color: #ffb98b;
+  border-color: #ffb98b;
 }
 
 .btn-outline-success {
@@ -117,13 +119,13 @@ border-color: #ffb98b;
 
 .titleText {
 font-weight: 600;
-color: #fff;
+color: #fff3ea;
 font-size: 2em;
 margin-bottom: 10px;
 }
 
 .text {
-  color: #fff;
+  color: #fff3ea;
   font-size: 1em;
 }
 
@@ -226,7 +228,7 @@ margin-bottom: 10px;
 }
 
 .destination .destinationList .box .content h2 {
-  color: #fff;
+  color: #fdf8f4;
   font-weight: 100;
   font-size: 1.4em;
   line-height: 1.2em;
@@ -239,7 +241,7 @@ opacity: 0.5;
 }
 
 .destination .content p {
-  color: #fff;
+  color: #fdf8f4;
   padding-top: 20px;
 }
 
@@ -250,7 +252,7 @@ opacity: 0.5;
   justify-content: space-between;
   height: 100px;
   padding: 0px 50px;
-  color: #fff;
+  color: #fdf8f4;
   margin-top: 160px;
 }
 
@@ -314,8 +316,8 @@ opacity: 0.5;
 }
 
 .listArticles {
- border-top: 1px solid #eaeaea;
- border-bottom: 1px solid #eaeaea;
+ border-top: 1px solid #fdf8f4;
+ border-bottom: 1px solid #fdf8f4;
  padding-top: 15px;
  padding-bottom: 15px;
 }
