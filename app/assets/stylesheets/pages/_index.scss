@@ -316,10 +316,13 @@ opacity: 0.5;
 }
 
 .listArticles {
- border-top: 1px solid #fdf8f4;
- border-bottom: 1px solid #fdf8f4;
- padding-top: 15px;
- padding-bottom: 15px;
+ // border-top: 1px solid #fdf8f4;
+ // border-bottom: 1px solid #fdf8f4;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 18%;
+  margin-right: 18%;
+  display: grid;
 }
 
 .article-country {
