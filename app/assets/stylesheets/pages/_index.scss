@@ -5,14 +5,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-
 body {
   background-color: #121211;
   color: #fff3ea;
@@ -37,6 +29,31 @@ section {
 
 .btn-light {
   background-color: #ffd1b3;
+}
+
+.btn-light:hover {
+  background-color: #ffb98b;
+}
+
+.btn-outline-success {
+  margin-left: 8px;
+  border-color: #ffd1b3;
+  background-color: #ffd1b3;
+  color: #22262a;
+}
+
+.btn-outline-success:hover {
+  background-color: #ffb98b;
+  border-color: #ffd1b3;
+  color: #22262a;
+}
+
+.me-2 {
+border-color: #ffd1b3;
+}
+
+.me-2:hover {
+border-color: #ffb98b;
 }
 
 .header .logo {
