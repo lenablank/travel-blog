@@ -5,8 +5,17 @@
   font-family: 'Poppins', sans-serif;
 }
 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 body {
-  background-color: #f8f9fa;
+  background-color: #121211;
+  color: #fff3ea;
 }
 
 section {
@@ -25,6 +34,10 @@ section {
 //   padding-top: 20px;
 //   padding-bottom: 20px;
 // }
+
+.btn-light {
+  background-color: #ffd1b3;
+}
 
 .header .logo {
   color: #fff;
@@ -50,13 +63,13 @@ section {
 }
 
 .banner .content h2 {
-  color: #fff;
+  color: #fff3ea;
   font-size: 4em;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
 .banner .content p {
-  color: #fff;
+  color: #fff3ea;
   font-size: 1.2em;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
