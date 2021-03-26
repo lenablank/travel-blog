@@ -2,26 +2,27 @@
 
   <img src="https://images.pexels.com/photos/4402272/pexels-photo-4402272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="fitBg">
   <div class="content">
-    <h2>Explore the World <br> with me</h2>
-    <p>I've visited more than 20 countries on 4 continents and more than 60 cities.
-    <br>
-    Traveling is a great way to discover and learn, to try new things,
-    to see new opportunities, cultures and ways of life.
-    Traveling is a lifestyle, isn't it? </p>
-  <button type="button" class="btn btn-light">Learn more</button>
+    <h2>Explore the World</h2>
+    <p> Traveling is a great way to discover and learn, to try new things and to see new opportunities.<br>
+      After visiting more than 20 countries, 4 continents and more than 60 cities, <br> I can say that traveling is a lifestyle, isn't it? </p>
+  <button type="button" class="btn btn-light">Get inspired</button>
   </div>
 </section>
 <section class="about">
   <div class="contentBx">
-    <h2 class="titleText">Feel the beauty of the World</h2>
-    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-    Ipsa corrupti eveniet, ea enim nobis rem consectetur fugit nesciunt necessitatibus,
-    sunt itaque sint optio, accusamus ducimus, dignissimos ex deserunt at dolor.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    <h2 class="titleText">Show the beauty of the World</h2>
+    <p class="text">
     <br>
-    Ipsa corrupti eveniet, ea enim nobis rem consectetur fugit nesciunt necessitatibus,
-    sunt itaque sint optio, accusamus ducimus, dignissimos ex deserunt at dolor.</p>
-    <a href="#" class="btn btn-light">Popular Destination</a>
-  </div>
+    This website is created during special times: the world seems to be frozen, nothings moves, people can’t travel, restaurants and hotels are closed.
+    We have so many wonderful memories from all over the world and this is a place to share them.
+    Create the memorable stories about your adventures, share emotions and tips.
+    Save your stories for the next travellers and inspire with beautiful pictures.
+    We will travel again, best time is yet to come.</p>
+    <p>
+      <%= link_to "Create new article", new_article_path %>
+    </p>
+<!--     <a href="#" class="btn btn-light">Popular Destination</a>
+ -->  </div>
   <div class="imgBx">
     <img src="https://images.pexels.com/photos/893198/pexels-photo-893198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="fitBg">
   </div>
@@ -29,7 +30,7 @@
 <section class="destination">
   <div class="content">
     <h2 class="titleText">Most popular</h2>
-    <p class="text">Some description here</p>
+    <p class="text">Favourite destinations </p>
   </div>
   <div class="destinationList">
     <div class="box">
@@ -60,9 +61,6 @@
 </section>
 <div class="listArticles">
   <h1>All articles</h1>
-  <p>
-    <%= link_to "Create new article", new_article_path %>
-  </p>
   <table>
   <tr>
     <th>Title</th>
