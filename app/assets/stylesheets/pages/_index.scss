@@ -12,7 +12,6 @@ body {
 
 section {
   position: relative;
-  padding: 40px;
 }
 
 // header {
@@ -104,6 +103,7 @@ border-color: #ffb98b;
 }
 
 .about {
+  padding: 8%;
   position: relative;
   width: 100%;
   display: flex;
@@ -323,7 +323,12 @@ opacity: 0.5;
   padding-bottom: 15px;
   margin-left: 18%;
   margin-right: 18%;
+  margin-top: 4%;
   display: grid;
+}
+
+.listArticles h2 {
+  text-align: center;
 }
 
 .article-country {
